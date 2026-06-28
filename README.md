@@ -49,6 +49,25 @@ Finally, having completed the setup for my onticket-lab folder and my .env file,
 <img width="1101" height="174" alt="image" src="https://github.com/user-attachments/assets/a9be3477-16b3-4174-97fb-926a4952e88d" />
 
 ## Accessing osTickets
+Now that my containers were ready to go, I was now able to start using osTicket with the help of Docker. On my internet browser, I typed in http://localhost:8080 to access osTicket, bringing me to the Support Center homepage. From here, I was shown various options, from being able to open a new ticket, to checking ticket status, and more. This is the screen that employees typically see when they wish to make a new request based on the problems they're facing within their environment.
+
+<img width="1365" height="709" alt="image" src="https://github.com/user-attachments/assets/92a16ee7-335f-42f3-8f6e-2ce623926de0" />
+
+Now that I was sure that this screen was working, I decided to access the Admin Page next (http://localhost:8080/scp/login.php). This page also worked successfully, and prompted me to login with the ostTicket credentials default to this simulation. After doing so, I was brought to the page in which I could see any tickets sent to me (the admin).
+
+<img width="1365" height="717" alt="image" src="https://github.com/user-attachments/assets/c3e9b44f-4de3-4932-9351-b5fa2bde5b2e" />
+
+Now that both pages were working successfully, it was time to test out actually sending a ticket and testing to see if I could view it from the admin page. Back on the ticket submission page, I pressed "Open a New Ticket" and filled out the form with the credentials that I wanted to be used. I used many placeholder credentials, as I simply wanted to see whether or not this would work. Some of the fields involved in this process were of course email, phone number, help topic, subject, and message, allowing the end user to supply the admin with all information necessary for a solution to be found.
+
+<img width="1365" height="719" alt="image" src="https://github.com/user-attachments/assets/f07f1a5e-c656-4ab6-bfbe-0920c1c5ce5a" />
+<img width="1365" height="715" alt="image" src="https://github.com/user-attachments/assets/3ed80238-8a7a-47bd-86b8-16172b53ad59" />
+<img width="1365" height="720" alt="image" src="https://github.com/user-attachments/assets/847601cf-7d79-4990-b251-fd6b49a4bc3d" />
+
+After submitting the ticket, I switched back over to the admin side and could successfully see the ticket that was previously submitted.
+
+
+
+
 
 
 
