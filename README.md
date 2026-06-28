@@ -37,7 +37,7 @@ The first step in this entire process, of course, was installing Docker. I downl
 
 After verifying that Docker was installed, the next step was to create my osticket-lab folder, which is what would be used as the central workspace and root directory for the ticketing system. To do so, once again within PowerShell, I manually decided to create the file rather than doing it the conventional way, just because this method lined up better with staying consistent with the .env file creation (coming right after). To create this file, I ran the script below based on my Desktop's file path so that the folder could be made.
 
-<img width="850" height="600" alt="image" src="https://github.com/user-attachments/assets/b704dd95-e67d-49d0-914b-e903315f0c5b" />
+<img width="850" height="400" alt="image" src="https://github.com/user-attachments/assets/b704dd95-e67d-49d0-914b-e903315f0c5b" />
 
 With my osticket-lab folder made and showing on my desktop, the next step was to create my .env file (environment file). By running this script within PowerShell, the .env file was made, allowing for credentials to be stored for osTicket, and for these credentials to be entered into my containers through Docker so that osTicket could successfully access the MySQL database.
 
