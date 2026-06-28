@@ -127,6 +127,50 @@ Finally, now that the requested ticket was completed, I sent a response back to 
 <img width="1365" height="711" alt="image" src="https://github.com/user-attachments/assets/b3ffd7fa-c606-46c4-867e-1c073cdd2156" />
 
 ### Ticket #3: Locked Account
+For this third ticket, the user was experiencing a locked account after accidentally inputting an incorrect password upon login. Within this ticket, time was of the essence, as this user had a presentation due in 20 minutes and no time to spare.
+
+<img width="1365" height="720" alt="image" src="https://github.com/user-attachments/assets/35d82d4f-158d-4772-914a-37c7b751a5ff" />
+
+For this ticket, I once again navigated to Users and Groups to find the user's name within the HR_Department Organizational Unit (from my Active Directory lab). 
+
+<img width="1020" height="852" alt="image" src="https://github.com/user-attachments/assets/c4cd646b-1705-4c57-8d1d-ab0d3f1b738c" />
+
+From here, I was able to navigate to the user's properties through right-click, and checked the "Unlock account" button so that they could once again access their account. After doing so, simply pressing apply put the change into effect.
+
+<img width="1022" height="848" alt="image" src="https://github.com/user-attachments/assets/1401c79f-d96b-4f58-85f9-933637c4a556" />
+<img width="1023" height="853" alt="image" src="https://github.com/user-attachments/assets/d27966b8-2f8a-4cf9-b3ae-308736326d3c" />
+
+With this ticket being completed, I sent in a response to the user to notify them of the fix.
+
+<img width="1365" height="722" alt="image" src="https://github.com/user-attachments/assets/745bb947-0b64-4ef1-b170-3a2bb6a5ac64" />
+
+### Ticket #4: Failed login attempts logged
+Within this final ticket, I was tasked with analyzing the multiple failed attempts noticed by the company's security system. The system sent an alert in case the security was being breached, and I was tasked with looking through the audit logs to see what occurred.
+
+<img width="1363" height="717" alt="image" src="https://github.com/user-attachments/assets/b782209c-ee84-4a4c-ac89-7f87b2b385f0" />
+
+To solve this ticket, I navigated to Event Viewer on my server virtual machine, and filtered based on the ID 4625. This code signals that a logon attempt failed due to an incorrect password being used. 
+
+<img width="1016" height="846" alt="image" src="https://github.com/user-attachments/assets/398bd055-9774-4ea9-8aef-35ad81aa185c" />
+
+After viewing the 4625 code, I was able to view the unsuccessful logon attempts. 
+
+<img width="1023" height="860" alt="image" src="https://github.com/user-attachments/assets/b27c0495-1ffe-4cdd-a7ff-68cc55f0fbac" />
+
+I wanted to see if this was maybe a user that had accidentally entered their password incorrectly, so I then went on to view any successful attempts. I did the same process again, this time using the ID 4624 to view successful logon attempts.
+
+<img width="1023" height="855" alt="image" src="https://github.com/user-attachments/assets/e3f5d9d7-6a98-4491-be9d-c7f5ab851330" />
+
+From here, I could see that the user had successfully logged in eventually, but to make sure, I did still want to contact the end user for any concerns they may have had with their logon process (in an actual environment and ticket situation like this, I would of course make sure that the user DID indeed make these logon attempts and incorrect passwords before closing the ticket, just in case an outside individual was making the attempt to breach the systems). For the sake of this simulation, I pretended to have contacted the user to confirm their actions.
+
+<img width="1021" height="853" alt="image" src="https://github.com/user-attachments/assets/d0f16046-95fa-443e-897d-e3ffc8ce5a69" />
+<img width="1365" height="713" alt="image" src="https://github.com/user-attachments/assets/d24d346e-db65-4bfc-850e-00c143d8276d" />
+
+This marks the end of the ticket simulations.
+
+## Conclusion
+With these ticket simulations completed, I was able to not only gain experience using a ticketing system, but was also able to gain more Active Directory experience with being able to solve issues such as these. My hope is that in the future, I'm able to put this experience to practice in a real-world work environment, working to solve ticket requests for users and improve upon my Active Directory knowledge! As time passes, I will continue to further explore how I can use this ticketing simulation to learn even more about its capabilities, and continue to add onto this repository. Thank you for your time!
+
 
 
 
